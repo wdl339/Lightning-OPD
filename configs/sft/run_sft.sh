@@ -20,7 +20,7 @@
 # git clone --depth 1 https://github.com/hiyouga/LlamaFactory.git
 # cd LlamaFactory
 # sudo pip install -e .
-# sudo pip install -r requirements/metrics.
+# sudo pip install -r requirements/metrics.txt
 # sudo pip install deepspeed
 # NODE_RANK=0 ./configs/sft/run_sft.sh
 
