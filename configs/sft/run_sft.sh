@@ -19,8 +19,8 @@
 
 # git clone --depth 1 https://github.com/hiyouga/LlamaFactory.git
 # cd LlamaFactory
-# sudo pip install -e . --no-deps
-# sudo pip install -r requirements/metrics.txt  --no-deps
+# sudo pip install -e .
+# sudo pip install -r requirements/metrics.txt
 # NODE_RANK=0 ./configs/sft/run_sft.sh
 
 set -euo pipefail
