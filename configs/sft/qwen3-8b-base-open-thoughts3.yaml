@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: Qwen/Qwen3-8B-Base
+model_name_or_path: /mnt/hdfs/wdl/models/Qwen3-8B-Base
 
 ### method
 stage: sft
@@ -11,7 +11,7 @@ packing: true
 
 
 ### dataset
-dataset: openthoughts3_300k_qwen3-32b
+dataset: openthoughts3
 template: qwen3
 cutoff_len: 16384
 overwrite_cache: true
@@ -28,7 +28,7 @@ plot_loss: true
 overwrite_output_dir: false
 save_only_model: false
 report_to: wandb
-run_name: qwen3-8b-base-open-thoughts3-qwen3-32b
+run_name: qwen3-8b-base-open-thoughts3
 
 ### train
 per_device_train_batch_size: 2

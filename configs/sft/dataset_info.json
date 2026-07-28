@@ -1,16 +1,15 @@
 {
-  "openthoughts3_300k_qwen3-8b": {
-    "file_name": "data/sft_data/openthoughts3_300k_qwen3-8b.parquet",
+  "openthoughts3": {
+    "file_name": "/mnt/hdfs/wdl/data/OpenThoughts3-1.2M/data/*.parquet",
     "formatting": "sharegpt",
     "columns": {
-      "messages": "messages"
-    }
-  },
-  "openthoughts3_300k_qwen3-32b": {
-    "file_name": "data/sft_data/openthoughts3_300k_qwen3-32b.parquet",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
+      "messages": "conversations"
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
     }
   }
 }
