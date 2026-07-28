@@ -5,7 +5,7 @@ model_name_or_path: /mnt/hdfs/wdl/models/Qwen3-8B-Base
 stage: sft
 do_train: true
 finetuning_type: full
-deepspeed: examples/deepspeed/ds_z1_config.json 
+deepspeed: LlamaFactory/examples/deepspeed/ds_z1_config.json 
 enable_liger_kernel: true
 packing: true
 

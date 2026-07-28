@@ -1,6 +1,6 @@
 {
   "openthoughts3": {
-    "file_name": "/mnt/hdfs/wdl/data/OpenThoughts3-1.2M/data/*.parquet",
+    "file_name": "/mnt/hdfs/wdl/data/OpenThoughts3-1.2M/data",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations"
