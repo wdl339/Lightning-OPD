@@ -30,7 +30,7 @@ NUM_NODES=4
 NUM_GPUS=8
 
 MASTER_ADDR="fdbd:dccd:cdd2:2207::315"
-MASTER_PORT=8000
+MASTER_PORT=8001
 
 CONFIG_YAML=${1:-qwen3-8b-base-open-thoughts3.yaml}
 OUTPUT_DIR=${2:-/home/tiger/ckpts/lighting-sft}

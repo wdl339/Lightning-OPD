@@ -1,5 +1,6 @@
 ### model
 model_name_or_path: /mnt/hdfs/wdl/models/Qwen3-8B-Base
+flash_attn: fa2
 
 ### method
 stage: sft
@@ -28,13 +29,13 @@ plot_loss: true
 overwrite_output_dir: false
 save_only_model: true
 report_to: wandb
-run_name: qwen3-8b-base-open-thoughts3
+run_name: qwen3-8b-base-open-thoughts3-math
 
 ### train
 per_device_train_batch_size: 2
 gradient_accumulation_steps: 2
-learning_rate: 8e-5
-max_steps: 3000
+learning_rate: 2e-5
+max_steps: 300
 lr_scheduler_type: cosine
 warmup_ratio: 0.1
 bf16: true

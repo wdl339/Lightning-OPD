@@ -1,6 +1,6 @@
 {
   "openthoughts3": {
-    "file_name": "/mnt/hdfs/wdl/data/OpenThoughts3-1.2M/data_subset40",
+    "file_name": "/mnt/hdfs/wdl/data/OpenThoughts3-1.2M/data_math50k",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations"
