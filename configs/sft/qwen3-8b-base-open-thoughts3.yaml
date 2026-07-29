@@ -5,7 +5,7 @@ model_name_or_path: /mnt/hdfs/wdl/models/Qwen3-8B-Base
 stage: sft
 do_train: true
 finetuning_type: full
-deepspeed: LlamaFactory/examples/deepspeed/ds_z1_config.json 
+deepspeed: LlamaFactory/examples/deepspeed/ds_z3_config.json 
 enable_liger_kernel: true
 packing: true
 
@@ -15,7 +15,7 @@ dataset: openthoughts3
 template: qwen3
 cutoff_len: 16384
 overwrite_cache: true
-preprocessing_num_workers: 16
+preprocessing_num_workers: 64
 dataloader_persistent_workers: true
 dataloader_pin_memory: true
 dataloader_num_workers: 4
@@ -26,7 +26,7 @@ save_steps: 100
 save_total_limit: 10
 plot_loss: true
 overwrite_output_dir: false
-save_only_model: false
+save_only_model: true
 report_to: wandb
 run_name: qwen3-8b-base-open-thoughts3
 
